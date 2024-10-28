@@ -1,0 +1,58 @@
+html{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%),ease-in-out;
+    
+}
+
+heading{
+    text-align: center;
+    font-size: xx-large;
+}
+
+main{
+    text-align: center;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    font-size: larger;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: #3f2b96;
+    color: white;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+#whose-turn{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+.game-container>div{
+    display: flex;
+}
+
+.square{
+    width: 120px;
+    height: 120px;
+    border: black 5px solid;
+    position: relative;
+}
+
+.clickedSquare{
+    font-size: xxx-large;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
